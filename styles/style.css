@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+    background-image:linear-gradient(rgb(72, 53, 181),rgb(130, 16, 201) , rgb(222, 34, 93), rgb(189, 94, 6));
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    overflow: hidden;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-family: poppins, sans-serif;
+}
