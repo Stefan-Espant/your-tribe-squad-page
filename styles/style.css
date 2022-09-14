@@ -1,16 +1,334 @@
-body {
-    height: 100vh;
-    background-image:linear-gradient(rgb(72, 53, 181),rgb(130, 16, 201) , rgb(222, 34, 93), rgb(189, 94, 6));
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    padding: 1em;
-    overflow: hidden;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
+header {
+    width: 100vw;
+    height: 4vh;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.carousel {
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 50%;
+    border: 0px solid #222;
+    transform: skew(180deg);
+  }
+  .ovals{
+    margin: 5em auto;
+    width: 80vw;
+    height: 80vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .oval-1{
+    position: absolute;
+    top: 0;
+  }
+  .oval{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     text-align: center;
-    color: #fff;
-    font-family: poppins, sans-serif;
+    z-index: 10;
+  }
+
+  .oval .oval-5 {
+    z-index: 1;
+  }
+
+  .oval-1 .carousel {
+    width: 840px;
+    height: 670px;
+      
+  }
+  
+  .oval-2 .carousel {
+    width: 506px;
+    height: 395px;
+    transform: skew(180deg);
+  }
+  
+  .oval-3 .carousel {
+    width: 360px;
+    height: 284px;
+    transform: skew(180deg);
+  }
+  
+  .oval-5 .carousel {
+    width: 111px;
+    height: 85px;
+    transform: skew(180deg);
+  }
+  
+  .oval .carousel .carousel__item{
+    transform: translate(-50%, -50%);
+  }
+  
+  .carousel__item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: 
+      move-x 60s linear infinite, 
+      move-y 60s linear infinite;
+    font-size: 1.4rem;
+  }
+
+/* Tijdsvertraging */
+
+  .carousel:nth-child {
+    animation-delay: 0s;
+  }
+
+  .carousel:nth-child(1) {
+    animation-delay: 2s;
+  }
+
+  .carousel:last-child {
+    animation-delay: 0s;
+  }
+
+
+  
+.carousel__item:hover{
+    opacity: 0.5;
+    cursor:pointer;
+  }
+  .oval img{
+    border-radius: 50%;
+    transform: skew(-180deg);
+  }
+  @keyframes move-x {
+    0% {
+      left: 0;
+      animation-timing-function: ease-in;
+    }
+    25% {
+      left: 50%;
+      animation-timing-function: ease-out;
+    }
+    50% {
+      left: 100%;
+      animation-timing-function: ease-in;
+    }
+    75% {
+      left: 50%;
+      animation-timing-function: ease-out;
+    }
+    100% {
+      left: 0%;
+      animation-timing-function: ease-in;
+    }
+  }
+  
+  @keyframes move-y {
+    0% {
+      top: 50%;
+      animation-timing-function: ease-out;
+    }
+    25% {
+      top: 0;
+      animation-timing-function: ease-in;
+    }
+    50% {
+      top: 50%;
+      animation-timing-function: ease-out;
+    }
+    75% {
+      top: 100%;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      top: 50%;
+      animation-timing-function: ease-out;
+    }
+  }
+
+
+  /* planet setting */
+
+  .planet {
+    display: block;
+    width: 5vw;
+    height: 5vh;
+  }
+
+/* Small viewport */
+@media (min-width: 320px) {
+
+    header {
+        width: 100vw;
+        height: 10vh;
+    }
+
+}
+
+/* Medium viewport */
+@media (min-width: 768px) {
+
+    header {
+        width: 100vw;
+        height: 5vh;
+    }
+}
+
+/* Large viewport */
+@media (min-width: 1024px) {
+
+    header {
+        width: 100vw;
+        height: 4vh;
+    }
+
+    .carousel {
+        width: 400px;
+        height: 200px;
+        margin: 20px auto;
+        position: relative;
+        border-radius: 50%;
+        border: 0px solid #222;
+        transform: skew(180deg);
+      }
+      .ovals{
+        margin: 5em auto;
+        width: 682px;
+        height: 528px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      .oval-1{
+        position: absolute;
+        top: 0;
+      }
+      .oval{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+      }
+      .oval-1 .carousel {
+        width: 682px;
+        height: 528px;
+          
+      }
+      
+      .oval-2 .carousel {
+        width: 506px;
+        height: 395px;
+        transform: skew(180deg);
+      }
+      
+      .oval-3 .carousel {
+        width: 360px;
+        height: 284px;
+        transform: skew(180deg);
+      }
+      
+      .oval-4 .carousel {
+        width: 229px;
+        height: 174px;
+        transform: skew(180deg);
+      }
+      
+      .oval-5 .carousel {
+        width: 111px;
+        height: 85px;
+        transform: skew(180deg);
+      }
+      
+      .oval .carousel .carousel__item{
+        transform: translate(-50%, -50%);
+      }
+      
+      .carousel__item {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: 
+          move-x 60s linear infinite, 
+          move-y 60s linear infinite;
+        font-size: 1.4rem;
+      }
+      
+      .carousel:hover .carousel__item {
+        animation-play-state: none;
+      }
+      .oval img{
+        border-radius: 50%;
+        transform: skew(-180deg);
+      }
+      @keyframes move-x {
+        0% {
+          left: 0;
+          animation-timing-function: ease-in;
+        }
+        25% {
+          left: 50%;
+          animation-timing-function: ease-out;
+        }
+        50% {
+          left: 100%;
+          animation-timing-function: ease-in;
+        }
+        75% {
+          left: 50%;
+          animation-timing-function: ease-out;
+        }
+        100% {
+          left: 0%;
+          animation-timing-function: ease-in;
+        }
+      }
+      
+      @keyframes move-y {
+        0% {
+          top: 50%;
+          animation-timing-function: ease-out;
+        }
+        25% {
+          top: 0;
+          animation-timing-function: ease-in;
+        }
+        50% {
+          top: 50%;
+          animation-timing-function: ease-out;
+        }
+        75% {
+          top: 100%;
+          animation-timing-function: ease-in;
+        }
+        100% {
+          top: 50%;
+          animation-timing-function: ease-out;
+        }
+      }
+}
+
+/* Extra large viewport */
+@media (min-width: 1920px) {
+
+    header {
+        width: 100vw;
+        height: 2vh;
+    }
 }
