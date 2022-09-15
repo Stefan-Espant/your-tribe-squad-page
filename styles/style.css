@@ -18,6 +18,8 @@ canvas {
     overflow: scroll;
 }
 
+/* Sterrenstelsel */
+
 .carousel {
     width: 400px;
     height: 200px;
@@ -27,7 +29,7 @@ canvas {
     border: 0px solid #222;
     transform: skew(180deg);
   }
-  .ovals{
+.ovals{
     margin: 5em auto;
     width: 80vw;
     height: 80vh;
@@ -164,7 +166,7 @@ canvas {
 
   /* planet setting */
 
-  .planet {
+  img {
     display: block;
     width: 5vw;
     height: 5vh;
@@ -176,6 +178,12 @@ canvas {
     header {
         width: 100vw;
         height: 10vh;
+    }
+
+    header img {
+        display: block;
+        width: 10em;
+        height: auto;
     }
 
 }
