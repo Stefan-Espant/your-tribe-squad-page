@@ -7,7 +7,7 @@
         <link rel="icon" type="image/x-icon" href="assets/zon.svg">
         <script src="scripts/script.js" text="type/javascript"></script>
     </head>
-    <body>
+    <body onload="buildUniverse()">
 
         <!-- Dit is de dynamische achtergrond -->
 
@@ -19,14 +19,14 @@
             <img src="../assets/logo.svg" alt="Logo team testmilu" />
         </header>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        
+
         <!-- Dit is het sterrenstelsel -->
 
-        <main class="ovals">
+        <main id="ovals" class="ovals">
 
         <!-- Dit is de buitenste baan -->
 
-          <div class="oval oval-1">
+          <div id="oval-1" class="oval oval-1">
             <div class="carousel">
                 <a href="https://stefan-vdkort.student.fdnd.nl" class="carousel__item " style="animation-delay: 0s;" value="stefan-van-der-kort">
                     <img class="bm-white" src="../assets/squad-c/stefan-van-der-kort.jpg" alt="Stefan van der Kort" />
@@ -84,7 +84,7 @@
             </a>
             </div>
           </div>
-          
+
         <!-- Dit is de binnenste baan -->
 
            <div class="oval oval-3">
@@ -101,14 +101,14 @@
           </div>
 
         <!-- Dit is de zon waar alle planeten om heen draaien -->
-          
+
            <div class="oval oval-5">
             <div class="carousel">
               <img id="zon" src="./assets/zon.svg" alt="zon" />
             </div>
           </div>
         </main>
-        
+
         <footer>
           <p>© 2022 · Team Testmilu</p>
         </footer>
