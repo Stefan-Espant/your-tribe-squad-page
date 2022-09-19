@@ -1,4 +1,6 @@
-Dit project is de overzichtspagina voor Squad C. 
+# Team Testmilu Squad Page
+
+Dit project is de overzichtspagina voor Squad C.
 Deze pagina is gebouwd door Team Testmilu (Team TEssa, STefan, MIchelle & LUuk).
 <br>
 <br>
