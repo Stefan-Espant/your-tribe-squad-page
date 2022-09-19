@@ -16,7 +16,7 @@
 }
 
 html {
-	font-size: 16px;
+	font-size: 30px;
 }
 
 body {
@@ -437,3 +437,9 @@ a {
   width: 33vw;
   border-radius: 0.2em;
 }
+
+@import './breakpoint-files/sm-screen.css';
+@import './breakpoint-files/md-screen.css';
+@import './breakpoint-files/lg-screen.css';
+@import './breakpoint-files/xl-screen.css';
+@import './breakpoint-files/xxl-screen.css';

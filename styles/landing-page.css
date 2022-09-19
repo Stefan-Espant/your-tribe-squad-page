@@ -45,7 +45,9 @@
 	font-weight: normal;
 }
 
-@media only screen and (min-width: 768px) {
+
+/* Medium screen size */
+@media (min-width: 768px) {
 	#swipe-up {
 		display: none;
 	}
