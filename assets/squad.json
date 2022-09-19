@@ -1,0 +1,98 @@
+[
+	{
+		"name": "Stefan van der Kort",
+		"pageUrl": "https://stefan-vdkort.student.fdnd.nl",
+		"imgUrl": "../assets/squad-c/stefan-van-der-kort.jpg",
+		"animationDelay": "0s"
+	},
+	{
+		"name": "Amir Amerian",
+		"pageUrl": "https://amirdev98.github.io/your-tribe-profile-card/",
+		"imgUrl": "../assets/squad-c/Amir-Amerian.jpg",
+		"animationDelay": "-7s"
+	},
+	{
+		"name": "Amber van der Reijden",
+		"pageUrl": "https://amberhva.github.io/your-tribe-profile-card-Copy/",
+		"imgUrl": "../assets/squad-c/amber-vd-reijden.jpg",
+		"animationDelay": "-15s"
+	},
+	{
+		"name": "Daan Carstens",
+		"pageUrl": "https://daancarst.github.io/your-tribe-profile-card-main/",
+		"imgUrl": "../assets/squad-c/daan-carstens.jpg",
+		"animationDelay": "-22.5s"
+	},
+	{
+		"name": "Elina Kniazian",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/elina-kniazian.jpg",
+		"animationDelay": "-30s"
+	},
+	{
+		"name": "Fatih Guler",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/fatih-guler.jpg",
+		"animationDelay": "-37.5s"
+	},
+	{
+		"name": "Joost Faber",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/joost-faber.jpg",
+		"animationDelay": "-42s"
+	},
+	{
+		"name": "Koop Reynders",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/koop-reynders.jpg",
+		"animationDelay": "-47.5s"
+	},
+	{
+		"name": "Merel Balk",
+		"pageUrl": "https://merpderp36.github.io/your-tribe-profile-card/",
+		"imgUrl": "../assets/squad-c/merel-balk.jpg",
+		"animationDelay": "-52.5s"
+	},
+	{
+		"name": "Rick Vellinga",
+		"pageUrl": "https://rickvellingaa.github.io/your-tribe-profile-card/",
+		"imgUrl": "../assets/squad-c/rick-vellinga.jpg",
+		"animationDelay": "-5s"
+	},
+	{
+		"name": "Roelie Jansen",
+		"pageUrl": "https://roelie.student.fdnd.nl/versie2/",
+		"imgUrl": "../assets/squad-c/roelie-jansen.jpg",
+		"animationDelay": "-19s"
+	},
+	{
+		"name": "Siem Postmus",
+		"pageUrl": "https://siem.student.fdnd.nl/",
+		"imgUrl": "../assets/squad-c/siem-postmus.jpg",
+		"animationDelay": "-25s"
+	},
+	{
+		"name": "Tessa Viergever",
+		"pageUrl": "https://tessaviergever.student.fdnd.nl/",
+		"imgUrl": "../assets/squad-c/tessa-viergever.jpg",
+		"animationDelay": "-45s"
+	},
+	{
+		"name": "Tristan de Muijnck",
+		"pageUrl": "https://tristan.student.fdnd.nl/",
+		"imgUrl": "../assets/squad-c/tristan-de-muijnck.jpg",
+		"animationDelay": "-10s"
+	},
+	{
+		"name": "Zenit Araya",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/zenit-araya.jpg",
+		"animationDelay": "-30s"
+	},
+	{
+		"name": "Luuk Brauckmann",
+		"pageUrl": "https://luukbrauckmann.student.fdnd.nl/",
+		"imgUrl": "../assets/squad-c/luuk-brauckmann.jpg",
+		"animationDelay": "-37s"
+	}
+]

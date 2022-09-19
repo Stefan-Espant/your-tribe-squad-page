@@ -93,7 +93,7 @@ a {
   justify-content: center;
   align-items: center;
 }
-.oval-1 {
+.oval-0 {
   position: absolute;
   top: 0;
 }
@@ -105,28 +105,28 @@ a {
   z-index: 10;
 }
 
-.oval .oval-5 {
+.oval .oval-sun {
   z-index: 1;
 }
 
-.oval-1 .carousel {
+.oval-0 .carousel {
   width: 840px;
   height: 670px;
 }
 
-.oval-2 .carousel {
+.oval-1 .carousel {
   width: 506px;
   height: 395px;
   transform: skew(180deg);
 }
 
-.oval-3 .carousel {
+.oval-2 .carousel {
   width: 360px;
   height: 284px;
   transform: skew(180deg);
 }
 
-.oval-5 .carousel {
+.oval-sun .carousel {
   width: 111px;
   height: 85px;
   transform: skew(180deg);
@@ -300,7 +300,7 @@ a {
     align-items: center;
     position: relative;
   }
-  .oval-1 {
+  .oval-0 {
     position: absolute;
     top: 0;
   }
@@ -310,30 +310,30 @@ a {
     transform: translateY(-50%);
     text-align: center;
   }
-  .oval-1 .carousel {
+  .oval-0 .carousel {
     width: 682px;
     height: 528px;
   }
 
-  .oval-2 .carousel {
+  .oval-1 .carousel {
     width: 506px;
     height: 395px;
     transform: skew(180deg);
   }
 
-  .oval-3 .carousel {
+  .oval-2 .carousel {
     width: 360px;
     height: 284px;
     transform: skew(180deg);
   }
 
-  .oval-4 .carousel {
+  .oval-3 .carousel {
     width: 229px;
     height: 174px;
     transform: skew(180deg);
   }
 
-  .oval-5 .carousel {
+  .oval-sun .carousel {
     width: 111px;
     height: 85px;
     transform: skew(180deg);
