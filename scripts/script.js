@@ -60,6 +60,9 @@ function buildUniverse() {
 	})
 }
 
+/**
+ * Builds & returns html elements
+ */
 function getParentElement(item) {
 	const parent = document.createElement('div')
 	parent.id = `oval-${item.value}`
