@@ -110,25 +110,25 @@ a {
 }
 
 .oval-0 .carousel {
-  width: 840px;
-  height: 670px;
+  width: 25vw;
+  height: 25vh;
 }
 
 .oval-1 .carousel {
-  width: 506px;
-  height: 395px;
+  width: 50vw;
+  height: 50vh;
   transform: skew(180deg);
 }
 
 .oval-2 .carousel {
-  width: 360px;
-  height: 284px;
+  width: 25vw;
+  height: 25vh;
   transform: skew(180deg);
 }
 
 .oval-sun .carousel {
-  width: 111px;
-  height: 85px;
+  width: 4em;
+  height: 8em;
   transform: skew(180deg);
 }
 
@@ -289,9 +289,9 @@ a {
 @media (min-width: 1024px) {
 
   .carousel {
-    width: 400px;
-    height: 200px;
-    margin: 20px auto;
+    width: 4vw;
+    height: 8vh;
+    margin: 1em auto;
     position: relative;
     border-radius: 50%;
     border: 0px solid #222;
@@ -317,32 +317,28 @@ a {
     transform: translateY(-50%);
     text-align: center;
   }
-  .oval-0 .carousel {
-    width: 682px;
-    height: 528px;
-  }
 
   .oval-1 .carousel {
-    width: 506px;
-    height: 395px;
+    width: 75vw;
+    height: 75vh;
     transform: skew(180deg);
   }
 
   .oval-2 .carousel {
-    width: 360px;
-    height: 284px;
+    width: 40em;
+    height: 25em;
     transform: skew(180deg);
   }
 
   .oval-3 .carousel {
-    width: 229px;
-    height: 174px;
+    width: 16em;
+    height: 10em;
     transform: skew(180deg);
   }
 
   .oval-sun .carousel {
-    width: 111px;
-    height: 85px;
+    width: 4em;
+    height: 8em;
     transform: skew(180deg);
   }
 
