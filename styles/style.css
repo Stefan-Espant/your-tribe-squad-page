@@ -179,6 +179,13 @@ a {
 	transform: scale(1.6);
 }
 
+.oval img:focus-visible {
+  transform: scale(1.6);
+  box-shadow: 0px 0px 1em dodgerblue;
+}
+
+
+
 @keyframes move-x {
   0% {
     left: 0;
@@ -254,7 +261,7 @@ a {
 
 .name:hover::after {
   white-space: pre;
-  content: "Stefan van der Kort";
+  content: "";
   position: relative;
   top: 1em;
   left: 0em;
@@ -355,6 +362,7 @@ a {
   .carousel:hover .carousel__item {
     animation-play-state: none;
   }
+
   .oval img {
     border-radius: 50%;
     transform: skew(-180deg);
@@ -363,6 +371,19 @@ a {
     background-size: cover;
     object-fit: cover;
   }
+
+  .carousel__item img:hover + .hide, .carousel__item img:focus-visible + .hide {
+    display: block;
+    color: rgba(240, 240, 240, 0.8);
+    box-shadow:   box-shadow: 1px 1px 2em 0.1em dodgerblue;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding-top: 1.2em;
+    transition: 1s ease-in-out;
+    width: 33vw;
+    border-radius: 0.2em;
+  }
+
   @keyframes move-x {
     0% {
       left: 0;
@@ -412,6 +433,7 @@ a {
 
 /* Extra large viewport */
 @media (min-width: 1920px) {
+
 }
 
 /* Gloed achter de mugshots */
@@ -426,16 +448,45 @@ a {
   display: none;
 }
 
+/* Focus voor gebruikers die met tab navigeren */
+.carousel__item:focus {
+  outline: none;
+}
+
+.carousel__item:focus img {
+  box-shadow: 1px 1px 2em 0.1em dodgerblue;
+  transform: scale(1.6);
+}
+
+.carousel__item:hover img {
+  box-shadow: 1px 1px 2em 0.1em dodgerblue;
+  transform: scale(1.6);
+}
+
+/* Instellingen om de voor- & achternaam weer te geven */
 .carousel__item img:hover + .hide {
   display: block;
   color: rgba(240, 240, 240, 0.8);
-  box-shadow: 1x 1x 1x #f00;
+  box-shadow:   box-shadow: 1px 1px 2em 0.1em dodgerblue;;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   padding-top: 1.2em;
   transition: 1s ease-in-out;
   width: 33vw;
   border-radius: 0.2em;
+  outline: none;
+}
+
+.carousel__item:focus img + .hide {
+  display: block;
+  color: rgba(240, 240, 240, 0.8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding-top: 1.2em;
+  transition: 1s ease-in-out;
+  width: 33vw;
+  border-radius: 0.2em;
+  outline: none;
 }
 
 @import './breakpoint-files/sm-screen.css';
