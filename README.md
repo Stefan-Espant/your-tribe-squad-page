@@ -3,6 +3,9 @@ Squadpage, is een overzichtspagina voor Squad C. De webpagina is een carousel in
 * Deze pagina is gebouwd door Team Testmilu (Team TEssa, STefan, MIchelle & LUuk).
 
 
+<img width="968" alt="Screenshot 2022-09-21 at 12 06 56" src="https://user-images.githubusercontent.com/106346778/191483169-bd27f13a-0398-44d0-94f3-8fe95fe1179d.png">
+
+
 
 # Dit project is opgebouwd met behulp van de volgende tools::
 * Javascript 
