@@ -371,7 +371,7 @@ a {
   .carousel__item img:hover + .hide, .carousel__item img:focus-visible + .hide {
     display: block;
     color: rgba(240, 240, 240, 0.8);
-    box-shadow: 1px 1px 2em 0.1em dodgerblue;;
+    box-shadow: 1px 1px 2em 0.1em dodgerblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     padding-top: 1.2em;
@@ -463,7 +463,7 @@ a {
 .carousel__item img:hover + .hide {
   display: block;
   color: rgba(240, 240, 240, 0.8);
-  box-shadow: 1px 1px 2em 0.1em dodgerblue;;
+  box-shadow: 1px 1px 2em 0.1em dodgerblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   padding-top: 1.2em;
