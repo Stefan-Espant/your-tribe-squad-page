@@ -7,6 +7,10 @@ function onInit() {
 	getFooter()
 }
 
+/**
+ * Data getter via fetch api
+ * Relative file path: ../assets/squad.json
+ */
 function getSquad() {
 	fetch('../assets/squad.json')
 		.then((response) => response.json())
