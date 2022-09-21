@@ -30,12 +30,18 @@ function getFooter() {
  * Builds universe based on list
  */
 function buildUniverse() {
-	const personsPerOrbit = Math.ceil(squad.length / 3)
-	const universe = []
-	for (let i = 0; i < squad.length; i += personsPerOrbit) {
-    const chunk = squad.slice(i, i + personsPerOrbit);
-		universe.push(chunk)
-	}
+	console.log(squad);
+	const universe = [
+		squad.slice(0, 10),
+		squad.slice(10, 16),
+		squad.slice(16, 19),
+	]
+	console.log(universe);
+	// const personsPerOrbit = Math.ceil(squad.length / 3)
+	// for (let i = 0; i < squad.length; i += personsPerOrbit) {
+  //   const chunk = squad.slice(i, i + personsPerOrbit);
+	// 	universe.push(chunk)
+	// }
 	const parent = document.getElementById('ovals')
 	universe.forEach((orbit, index) => {
 		const htmlOrbit = getOrbit(orbit, index)
