@@ -6,6 +6,20 @@ Deze pagina is gebouwd door Team Testmilu (Team TEssa, STefan, MIchelle & LUuk).
 <br>
 De pagina is een carousel in een zonnestelsel-achtige layout. Iedere planeet is klikbaar en stuurt de gebruiker door naar zijn, het of haar visitekaartje. Wanneer de gebruiker over een planeet hovert, geschijnt de voor- en achternaam van de student.
 
+# Dit project is opgebouwd met behulp van de volgende tools::
+Javascript 
+Visual code
+Git
+HTML
+CSS
+
+# Opbouw 
+
+
+
+
+
+
 ## Handige links
 
 [Link naar live](https://testmilu.student.fdnd.nl/)
