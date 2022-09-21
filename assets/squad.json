@@ -36,18 +36,6 @@
 		"animationDelay": "-37.5s"
 	},
 	{
-		"name": "Joost Faber",
-		"pageUrl": "",
-		"imgUrl": "../assets/squad-c/joost-faber.png",
-		"animationDelay": "-42s"
-	},
-	{
-		"name": "Koop Reynders",
-		"pageUrl": "",
-		"imgUrl": "../assets/squad-c/koop-reynders.png",
-		"animationDelay": "-47.5s"
-	},
-	{
 		"name": "Merel Balk",
 		"pageUrl": "https://merpderp36.github.io/your-tribe-profile-card/",
 		"imgUrl": "../assets/squad-c/merel-balk.png",
@@ -94,5 +82,35 @@
 		"pageUrl": "https://luukbrauckmann.student.fdnd.nl/",
 		"imgUrl": "../assets/squad-c/luuk-brauckmann.png",
 		"animationDelay": "-37s"
+	},
+	{
+		"name": "Fouad Taissate",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/fouad-taissate.png",
+		"animationDelay": "-37s"
+	},
+	{
+		"name": "Jalal Toufik",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/jalal-toufik.png",
+		"animationDelay": "-11s"
+	},
+	{
+		"name": "Maika Nguyen",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/maika-nguyen.png",
+		"animationDelay": "-15s"
+	},
+	{
+		"name": "Mokhtar Akle",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/mokhtar-akle.png",
+		"animationDelay": "-25s"
+	},
+	{
+		"name": "Olivier Griep",
+		"pageUrl": "",
+		"imgUrl": "../assets/squad-c/olivier-griep.png",
+		"animationDelay": "-45s"
 	}
 ]
