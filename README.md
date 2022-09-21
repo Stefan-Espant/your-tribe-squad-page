@@ -1,8 +1,11 @@
 # Team Testmilu Squad Page
+
+<img width="1350" alt="Screenshot 2022-09-21 at 12 35 06" src="https://user-images.githubusercontent.com/106346778/191483245-f66a48d9-55f9-4e20-b584-06b36766ca46.png">
+
 Squadpage, is een overzichtspagina voor Squad C. De webpagina is een carousel in een zonnestelsel-achtige layout. Iedere planeet is klikbaar en stuurt de gebruiker door naar zijn, het of haar visitekaartje. Wanneer de gebruiker over een planeet hovert, geschijnt de voor- en achternaam van de student.
 * Deze pagina is gebouwd door Team Testmilu (Team TEssa, STefan, MIchelle & LUuk).
 
-<img width="1350" alt="Screenshot 2022-09-21 at 12 35 06" src="https://user-images.githubusercontent.com/106346778/191483245-f66a48d9-55f9-4e20-b584-06b36766ca46.png">
+
 
 
 
