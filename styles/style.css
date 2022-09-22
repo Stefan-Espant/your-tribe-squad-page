@@ -110,19 +110,19 @@ a {
 }
 
 .oval-0 .carousel {
-  width: 25vw;
-  height: 25vh;
+  width: 75vw;
+  height: 75vh;
 }
 
 .oval-1 .carousel {
-  width: 50vw;
-  height: 50vh;
+  width: 40vw;
+  height: 40vh;
   transform: skew(180deg);
 }
 
 .oval-2 .carousel {
-  width: 25vw;
-  height: 25vh;
+  width: 15vw;
+  height: 10vh;
   transform: skew(180deg);
 }
 
@@ -318,27 +318,26 @@ a {
     text-align: center;
   }
 
-  .oval-1 .carousel {
+  .oval-0 .carousel {
     width: 75vw;
     height: 75vh;
+  }
+
+  .oval-1 .carousel {
+    width: 50vw;
+    height: 50vh;
     transform: skew(180deg);
   }
 
   .oval-2 .carousel {
-    width: 40em;
-    height: 25em;
-    transform: skew(180deg);
-  }
-
-  .oval-3 .carousel {
-    width: 16em;
-    height: 10em;
+    width: 20em;
+    height: 12em;
     transform: skew(180deg);
   }
 
   .oval-sun .carousel {
     width: 4em;
-    height: 8em;
+    height: 4em;
     transform: skew(180deg);
   }
 
