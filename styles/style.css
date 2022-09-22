@@ -379,16 +379,30 @@ a {
     object-fit: cover;
   }
 
-  .carousel__item img:hover + .hide, .carousel__item img:focus-visible + .hide {
-    display: block;
-    color: rgba(240, 240, 240, 0.8);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
-    padding-top: 1.2em;
-    transition: 1s ease-in-out;
-    width: 33vw;
-    border-radius: 0.2em;
-  }
+/* Instellingen om de voor- & achternaam weer te geven */
+.carousel__item img:hover + .hide {
+  display: block;
+  color: rgba(240, 240, 240, 0.8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding-top: 1.2em;
+  transition: 1s ease-in-out;
+  width: 33vw;
+  border-radius: 0.2em;
+  outline: none;
+}
+
+.carousel__item:focus img + .hide {
+  display: block;
+  color: rgba(240, 240, 240, 0.8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding-top: 1.2em;
+  transition: 1s ease-in-out;
+  width: 33vw;
+  border-radius: 0.2em;
+  outline: none;
+}
 
   @keyframes move-x {
     0% {
