@@ -277,16 +277,30 @@ a {
 	transition: 1s ease-in-out;
 }
 
-/* Small viewport */
-@media (min-width: 320px) {
+/* Instellingen om de voor- & achternaam weer te geven */
+.carousel__item img:hover + .hide {
+  display: block;
+  color: rgba(240, 240, 240, 0.8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding-top: 1.2em;
+  transition: 1s ease-in-out;
+  width: 33vw;
+  border-radius: 0.2em;
+  outline: none;
 }
 
-/* Medium viewport */
-@media (min-width: 768px) {
+.carousel__item:focus img + .hide {
+  display: block;
+  color: rgba(240, 240, 240, 0.8);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding-top: 1.2em;
+  transition: 1s ease-in-out;
+  width: 33vw;
+  border-radius: 0.2em;
+  outline: none;
 }
-
-/* Large viewport */
-@media (min-width: 1024px) {
 
   .carousel {
     width: 4vw;
@@ -449,11 +463,6 @@ a {
       animation-timing-function: ease-out;
     }
   }
-}
-
-/* Extra large viewport */
-@media (min-width: 1920px) {
-
 }
 
 /* Gloed achter de mugshots */
