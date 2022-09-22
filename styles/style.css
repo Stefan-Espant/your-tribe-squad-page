@@ -347,7 +347,7 @@ a {
   .oval-2 .carousel {
     width: 20em;
     height: 12em;
-=======
+    =======
   .oval-1 .carousel {
     width: 40em;
     height: 25em;
@@ -357,7 +357,7 @@ a {
   .oval-2 .carousel {
     width: 16em;
     height: 10em;
->>>>>>> 8b4edac1ef8adabaf8867ff2a4b97b34f229bd8c
+    >>>>>>> 8b4edac1ef8adabaf8867ff2a4b97b34f229bd8c
     transform: skew(180deg);
   }
 
