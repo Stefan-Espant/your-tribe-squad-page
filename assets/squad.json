@@ -99,18 +99,18 @@
 		"name": "Jalal Toufik",
 		"pageUrl": "https://jalal.student.fdnd.nl/",
 		"imgUrl": "../assets/squad-c/jalal-toufik.png",
-		"animationDelay": "-6s"
+		"animationDelay": "-0s"
 	},
 	{
 		"name": "Mokhtar Akle",
 		"pageUrl": "https://mokhtarakle.github.io/your-tribe-profile-card/",
 		"imgUrl": "../assets/squad-c/mokhtar-akle.png",
-		"animationDelay": "-18s"
+		"animationDelay": "-20s"
 	},
 	{
 		"name": "Olivier Griep",
 		"pageUrl": "https://olivergriep.student.fdnd.nl/versie2/",
 		"imgUrl": "../assets/squad-c/olivier-griep.png",
-		"animationDelay": "-30s"
+		"animationDelay": "-40s"
 	}
 ]
