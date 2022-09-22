@@ -105,10 +105,6 @@ a {
   z-index: 10;
 }
 
-.oval .oval-sun {
-  z-index: 1;
-}
-
 .oval-0 .carousel {
   width: 75vw;
   height: 75vh;
@@ -332,6 +328,16 @@ a {
   .oval-2 .carousel {
     width: 20em;
     height: 12em;
+
+  .oval-1 .carousel {
+    width: 40em;
+    height: 25em;
+    transform: skew(180deg);
+  }
+
+  .oval-2 .carousel {
+    width: 16em;
+    height: 10em;
     transform: skew(180deg);
   }
 

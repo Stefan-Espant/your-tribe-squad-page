@@ -16,6 +16,8 @@
 		"pageUrl": "https://amirdev98.github.io/your-tribe-profile-card/",
 		"imgUrl": "../assets/squad-c/Amir-Amerian.png",
 		"animationDelay": "-12s"
+		"imgUrl": "../assets/squad-c/amir-amerian.png",
+		"animationDelay": "-7s"
 	},
 	{
 		"name": "Amber van der Reijden",
