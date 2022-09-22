@@ -90,10 +90,16 @@
 		"animationDelay": "-40s"
 	},
 	{
+		"name": "Michelle Hendriks",
+		"pageUrl": "http://profile.card.michelle.student.fdnd.nl/",
+		"imgUrl": "../assets/squad-c/michelle-hendriks.png",
+		"animationDelay": "-48s"
+	},
+	{
 		"name": "Fouad Taissate",
 		"pageUrl": "https://fouad.student.fdnd.nl",
 		"imgUrl": "../assets/squad-c/fouad-taissate.png",
-		"animationDelay": "-54s"
+		"animationDelay": "-40s"
 	},
 	{
 		"name": "Jalal Toufik",
