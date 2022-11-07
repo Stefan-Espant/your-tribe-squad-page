@@ -11,7 +11,7 @@ Squadpage, is een overzichtspagina voor Squad C. De webpagina is een carousel in
 
 
 
-# Dit project is opgebouwd met behulp van de volgende tools::
+# Dit project is opgebouwd met behulp van de volgende tools:
 * Javascript 
 * Visual code
 * Git
